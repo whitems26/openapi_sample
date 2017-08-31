@@ -12,6 +12,8 @@
 		E01B05561F57C53900EE261E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01B05541F57C53900EE261E /* Main.storyboard */; };
 		E01B05581F57C53900EE261E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01B05571F57C53900EE261E /* Assets.xcassets */; };
 		E01B055B1F57C53900EE261E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01B05591F57C53900EE261E /* LaunchScreen.storyboard */; };
+		E01B05631F57CAD100EE261E /* Art.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01B05621F57CAD100EE261E /* Art.swift */; };
+		E01B05651F57CB8700EE261E /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01B05641F57CB8700EE261E /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E01B05571F57C53900EE261E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E01B055A1F57C53900EE261E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E01B055C1F57C53900EE261E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E01B05621F57CAD100EE261E /* Art.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art.swift; sourceTree = "<group>"; };
+		E01B05641F57CB8700EE261E /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E01B05571F57C53900EE261E /* Assets.xcassets */,
 				E01B05591F57C53900EE261E /* LaunchScreen.storyboard */,
 				E01B055C1F57C53900EE261E /* Info.plist */,
+				E01B05621F57CAD100EE261E /* Art.swift */,
+				E01B05641F57CB8700EE261E /* MainTableViewController.swift */,
 			);
 			path = OpenApi;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E01B05651F57CB8700EE261E /* MainTableViewController.swift in Sources */,
 				E01B05531F57C53900EE261E /* ViewController.swift in Sources */,
 				E01B05511F57C53900EE261E /* AppDelegate.swift in Sources */,
+				E01B05631F57CAD100EE261E /* Art.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
